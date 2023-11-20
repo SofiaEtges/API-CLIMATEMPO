@@ -1,0 +1,94 @@
+ul{
+    list-style: none;
+}
+li{
+    border-radius: 16px;
+    padding: 5px;
+    background-color: #edf9fcef;
+    cursor: pointer;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1
+{
+  padding-left: 6%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 260%;
+}
+body
+{
+  background-color: rgb(84, 182, 182);
+}
+main
+{
+  text-align: center;
+  color:#547ea4;
+  font-size: 100%;
+}
+.lugar
+{
+  position: absolute;
+  top: 150px;
+  font-size: 500px;
+  font-weight: 800;
+  display: flex;
+}
+.cidade
+{
+  left: 20px;
+  top: 30px;
+  
+}
+.temperatura
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.condi-sens
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sensacao-termica
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.condicao
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vento
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.umidade
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagemumidade
+{
+  display: flex;
+}
+.imagemvento
+{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    mix-blend-mode: multiply;
+    justify-content: center;
+    align-items: center;
+    bottom: -5px;
+}
+
+
